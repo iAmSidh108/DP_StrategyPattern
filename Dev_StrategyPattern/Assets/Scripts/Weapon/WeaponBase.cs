@@ -11,7 +11,8 @@ public abstract class WeaponBase : MonoBehaviour
     // with classes you can add lots of base attributes
     // while still retaining abstract behavior
 
-    
+    [SerializeField] Projectile _projectile = null;
+    protected Projectile Projectile => _projectile;
 
     [SerializeField] Transform _projectileSpawnLocation = null;
     protected Transform ProjectileSpawnLocation => _projectileSpawnLocation;

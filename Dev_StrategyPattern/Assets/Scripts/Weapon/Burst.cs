@@ -9,7 +9,9 @@ public class Burst : WeaponBase
         //TODO use Object Pooling for optimization
         //TODO use Template Method to put default shoot in baseclass
         Debug.Log("Shoot the Blaster - Bang!");
-        
+        Projectile newProjectile = Instantiate
+               (Projectile, ProjectileSpawnLocation.position,
+               ProjectileSpawnLocation.rotation);
 
         // play particles
         ParticleSystem burstParticle = Instantiate

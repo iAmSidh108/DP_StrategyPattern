@@ -360,6 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40cd1c5f063e00f40a1ae95be8ae9703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _projectile: {fileID: 5904303159684681124, guid: 26cdfcd1566b2bf4f8352cc86486c544, type: 3}
   _projectileSpawnLocation: {fileID: 6557600881844793964}
   _shootParticle: {fileID: 5221885161199632521, guid: c891e92fbe030ef4e80d8fb32906450b, type: 3}
   _shootSound: {fileID: 8300000, guid: 0e2c63368730d8d4b92a91e0974a24f6, type: 3}

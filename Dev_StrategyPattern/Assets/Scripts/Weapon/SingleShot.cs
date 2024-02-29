@@ -10,7 +10,10 @@ public class SingleShot : WeaponBase
         //TODO use Template Method to put default shoot in baseclass
         Debug.Log("Shoot Launcher - BOOM!");
         // spawn projectile
-        
+        Projectile newProjectile = Instantiate
+                (Projectile, ProjectileSpawnLocation.position,
+                ProjectileSpawnLocation.rotation);
+
         // play particles
         ParticleSystem burstParticle = Instantiate
             (ShootParticle, ProjectileSpawnLocation.position,

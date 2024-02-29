@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 852871088}
   - component: {fileID: 852871090}
   - component: {fileID: 852871089}
+  - component: {fileID: 852871091}
   m_Layer: 0
   m_Name: FPSController
   m_TagString: Untagged
@@ -297,6 +298,22 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &852871091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852871087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a0f33ed454d71489d5ad334327fe56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingWeaponPrefab: {fileID: 6772773880383344978, guid: abf35347b4eb74843959f87d847a3574, type: 3}
+  _slot01WeaponPrefab: {fileID: 6772773880383344978, guid: abf35347b4eb74843959f87d847a3574, type: 3}
+  _slot02WeaponPrefab: {fileID: 4790063931200868141, guid: 570c8dd264f82a44d8acf23a0e79fec9, type: 3}
+  _weaponSocket: {fileID: 934600564}
 --- !u!1 &934600563
 GameObject:
   m_ObjectHideFlags: 0
